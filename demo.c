@@ -2,13 +2,13 @@
 
 
 
-	 void f4(){
-	 	int x,y;
-	 	printf("Nhap 2 so a va b : \n");
-	 	scanf("%d",&x);
-	 	scanf("%d",&y);
-	 	printf(" tich cua 2 so la %ld",x*y);
-	 }
+void f4(){
+    int x,y;
+    printf("Nhap 2 so a va b : \n");
+    scanf("%d",&x);
+    scanf("%d",&y);
+	printf(" tich cua 2 so la %ld",x*y);
+}
 
 void f3()
 {
