@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+#include <stdio.h>
+
+void f2() {
+    int x, y;
+    printf("Input x,y: ");
+    scanf("%d%d", &x, &y);
+    int sum = x + y;
+    printf("Sum = %d", sum);
+}
+
 int main()
 {
     printf("Hello F-Code:\n");
