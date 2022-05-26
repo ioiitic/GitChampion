@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-#include <stdio.h>
+void f1(){
+    printf("GitChampion!\n");
 
 void f2() {
     int x, y;
