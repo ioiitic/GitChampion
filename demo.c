@@ -1,7 +1,16 @@
 #include <stdio.h>
 
+void f3()
+{
+	float a,b;
+	printf("Enter two integers: ");
+	scanf("%f %f",&a,&b);
+	printf("Hieu hai so: %f",a-b);
+}
+
 void f1(){
     printf("GitChampion!\n");
+}
 
 void f2() {
     int x, y;
